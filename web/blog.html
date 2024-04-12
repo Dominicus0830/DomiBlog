@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- 페이지 기본설정
+  ================================================== -->
+    <meta charset="utf-8">
+    <title>DomiWeb</title>
+    <meta content="Dominicus's Develment Blog" name="description">
+
+
+    <!-- 모바일 환경에서 최적화 된 페이지를 위한 설정
+  ================================================== -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+
+    <!-- CSS
+  ================================================== -->
+    <link href="css/zerogrid.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+
+</head>
+<body>
+<div class="wrap-body zerogrid">
+    <!--------------Header--------------->
+    <header>
+        <div class="wrap-header">
+            <div class="top">
+                <div id="search">
+                    <div class="button-search"></div>
+                    <input type="text" value="검색...">
+                </div>
+                <div id="dark-mode">
+                    <input class="check" type="checkbox">
+                </div>
+            </div>
+
+            <div id="logo">
+                <a href="http://blog.dominicus.kr"><h1>DomiWeb</h1></a>
+                <p>Dominicus's Beveloment Blog</p>
+            </div>
+            <nav>
+                <div class="wrap-nav">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="https://github.com/Dominicus0830">Github</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--------------Content--------------->
+    <section id="content">
+        <div class="wrap-content">
+            <div class="row block">
+                <div class="col-2-3" id="main-content">
+                    <div class="wrap-col">
+                        <article>
+                            <div class="heading">
+                                <h2><a href="#">MultiWorld 플러그인</a></h2>
+                            </div>
+                            <div class="content">
+                                <img src="images/blog/b1.png" width="50%"/>
+                                <p>기존의 Multiverse Plugin 을 포킹, 수정후 최적화한 플러그인. 타 플러그인 이랑 연동 가능
+                                </p>
+                            </div>
+                            <div class="info">
+                                <p>By Dominicus on 2024/04/11 </p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="heading">
+                                <h2><a href="blog1.html">CatFish 라이브러리</a></h2>
+                            </div>
+                            <div class="content">
+                                <img src="images/blog/b2.png" width="30%"/>
+                                <p>CatKing562와 공동 개발한 라이브러리. 제작 목적은 구문 작성 시간 단축, 코드 최적화, 자바의 객체 지향적 코딩 방법을 극단적으로 올리기 위한 라이브러리
+                                </p>
+                            </div>
+                            <div class="info">
+                                <p>By Dominicus on 2024/04/11 </p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="heading">
+                                <h2><a href="blog3.html">ModelEngine</a></h2>
+                            </div>
+                            <div class="content">
+                                <img src="images/blog/b3.png" width="50%"/>
+                                <p> 기존에 배포되던 모델엔진 라이브러리와 작동 방식이 다른 플러그인 이자 라이브러리. 관절을 커스텀 가능하고 타 프로그램 이랑 연동 가능.
+                                </p>
+                            </div>
+                            <div class="info">
+                                <p>By Dominicus on 2024/04/11 </p>
+                            </div>
+                        </article>
+                        <section>
+                            <h3>Leave a Comment</h3>
+                            <form id="contact-form" method="post">
+                                <fieldset>
+                                    <label><input name="email" onBlur="if(this.value=='') this.value='Email'"
+                                                  onFocus="if(this.value =='Email' ) this.value=''"
+                                                  value="Email"/></label>
+                                    <label><input name="subject" onBlur="if(this.value=='') this.value='Subject'"
+                                                  onFocus="if(this.value =='Subject' ) this.value=''"
+                                                  value="Subject"/></label>
+                                    <textarea onBlur="if(this.value=='') this.value='Message'"
+                                              onFocus="if(this.value =='Message' ) this.value=''">Message</textarea>
+                                    <div class="buttons">
+                                        <a href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
+                                        <a href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-1-3" id="sidebar">
+                    <div class="wrap-col">
+                        <div class="box">
+                            <div class="heading"><h2>Profile</h2></div>
+                            <div class="content">
+                                <img src="images/domi.png" style="border: 0px;"/></a>
+                                <p><br>프로그래밍 언어</p>
+                                <p><br><br><br>Java<br>Kotlin<br>C#<br>C++</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="heading"><h2>글</h2></div>
+                            <div class="content">
+                                <ul>
+                                    <li><a href="blog1.html">DM멀티월드 플러그인</a></li>
+                                    <li><a href="blog2.html">CatFish 라이브러리</a></li>
+                                    <li><a href="blog3.html">옛날 마인크래프트 해보기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+<!--                        <div class="box">-->
+<!--                            <div class="heading"><h2>Popular Post</h2></div>-->
+<!--                            <div class="content">-->
+<!--                                <div class="post">-->
+<!--                                    <img src="images/img4.jpg" width="50px"/>-->
+<!--                                    <h4><a href="#">Lorem ipsum dolor sit</a></h4>-->
+<!--                                    <p>November 11 ,2012</p>-->
+<!--                                </div>-->
+<!--                                <div class="post">-->
+<!--                                    <img src="images/img5.jpg" width="50px"/>-->
+<!--                                    <h4><a href="#">Lorem ipsum dolor sit</a></h4>-->
+<!--                                    <p>November 11 ,2012</p>-->
+<!--                                </div>-->
+<!--                                <div class="post">-->
+<!--                                    <img src="images/img1.jpg" width="50px"/>-->
+<!--                                    <h4><a href="#">Lorem ipsum dolor sit</a></h4>-->
+<!--                                    <p>November 11 ,2012</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------Footer--------------->
+    <footer>
+        <div class="wrap-footer">
+            <div class="row">
+                <div class="col-1-3">
+                    <div class="wrap-col">
+                        <div class="box">
+                            <!--						<div class="heading"><h2>Image Gallery</h2></div>-->
+                            <!--						<div class="content gallery">-->
+                            <!--							<a href="#"><img src="images/img1.jpg" width="120"/></a>-->
+                            <!--							<a href="#"><img src="images/img2.jpg" width="120"/></a>-->
+                            <!--							<a href="#"><img src="images/img3.jpg" width="120"/></a>-->
+                            <!--							<a href="#"><img src="images/img4.jpg" width="120"/></a>-->
+                            <!--							<a href="#"><img src="images/img5.jpg" width="120"/></a>-->
+                            <!--							<a href="#"><img src="images/img1.jpg" width="120"/></a>-->
+                            <!--						</div>-->
+                        </div>
+                    </div>
+                </div>
+                <!--                <div class="col-1-1">-->
+                <!--                    <div class="wrap-col">-->
+                <!--                        <div class="box">-->
+                <!--                            <div class="heading"><h2>About me</h2></div>-->
+                <!--                            <div class="content">-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <div class="col-1-3">
+                    <div class="wrap-col">
+                        <div class="box">
+                            <div class="heading"><h2>Contact Me</h2></div>
+                            <div class="content">
+                                <p>Email: admin@dominicus.kr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 - <a href="https://github.com/Dominicus0830" target="_blank"> </a> by Dominicus0830. All
+                rights reserved</p>
+        </div>
+    </footer>
+</div>
+<!--귀찮아서 그냥 html에 스크립트-->
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        //다크모드 토글
+        if(document.querySelector('.darkmode')){
+            if(localStorage.getItem("darkmode") == 'on'){
+                //다크모드 켜기
+                document.body.dataset.darkmode='on';
+                document.querySelector('#toggle-radio-dark').checked = true;
+            }
+            //다크모드 이벤트 핸들러
+            document.querySelector('.darkmode').addEventListener("click", e=>{
+                if(e.target.classList.contains('todark')){
+                    document.body.dataset.darkmode='on';
+                    localStorage.setItem("darkmode", "on");
+                }else if(e.target.classList.contains('tolight')){
+                    document.body.dataset.darkmode='off';
+                    localStorage.setItem("darkmode", "off");
+                }
+            },false);
+        }else{
+            localStorage.removeItem("darkmode");
+        }
+
+    })
+</script>
+</body>
+</html>

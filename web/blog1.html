@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- 페이지 기본설정
+================================================== -->
+  <meta charset="utf-8">
+  <title>DomiWeb</title>
+  <meta name="description" content="Dominicus's Develment Blog">
+
+
+  <!-- 모바일 환경에서 최적화 된 페이지를 위한 설정
+================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+================================================== -->
+  <link rel="stylesheet" href="css/zerogrid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+<body>
+<div class="wrap-body zerogrid">
+  <!--------------Header--------------->
+  <header>
+    <div class="wrap-header">
+      <div class="top">
+        <div id="search">
+          <div class="button-search"></div>
+          <input type="text" value="검색...">
+        </div>
+      </div>
+
+      <div id="logo">
+        <a href="http://blog.dominicus.kr"><h1>DomiWeb</h1></a>
+        <p>Dominicus's Beveloment Blog</p>
+      </div>
+      <nav>
+        <div class="wrap-nav">
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="https://github.com/Dominicus0830">Github</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--------------Content--------------->
+  <section id="content">
+    <div class="wrap-content">
+      <div class="row block">
+        <div id="main-content" class="col-2-3">
+          <div class="wrap-col">
+            <article>
+              <div class="heading">
+                <h2><a href="#">멀티 월드 플러그인</a></h2>
+              </div>
+              <div class="content">
+                <!--							<img src="images/img1.jpg" width="100%"/>-->
+                <p>기존에 월드을 하나만 사용할수 있던 문제점을 해결 하는 플러그인 입니다. 기존의 배포 되던 멀티버스 플러그인은 최적화, 호환성 문제점 때문에 직접 제작하였다.<br></p>
+                <img src="images/blog/b1.png" width="100%">
+              </div>
+              <div class="info">
+                <p>By Admin on 2024/04/11 </p>
+              </div>
+            </article>
+
+            <section>
+              <h3>Leave a Comment</h3>
+
+              <form id="contact-form" method="post">
+                <fieldset>
+                  <label><input name="email" value="Email"
+                                onBlur="if(this.value=='') this.value='Email'"
+                                onFocus="if(this.value =='Email' ) this.value=''"/></label>
+                  <label><input name="subject" value="Subject"
+                                onBlur="if(this.value=='') this.value='Subject'"
+                                onFocus="if(this.value =='Subject' ) this.value=''"/></label>
+                  <textarea onBlur="if(this.value=='') this.value='Message'"
+                            onFocus="if(this.value =='Message' ) this.value=''">Message</textarea>
+                  <div class="buttons">
+                    <a href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
+                    <a href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
+                  </div>
+                </fieldset>
+              </form>
+            </section>
+          </div>
+        </div>
+        <div id="sidebar" class="col-1-3">
+          <div class="wrap-col">
+            <div class="box">
+              <div class="heading"><h2>Profile</h2></div>
+              <div class="content">
+                <img src="images/domi.png" style="border: 0px;"/></a>
+                <p><br>프로그래밍 언어</p>
+                <p><br><br><br>Java<br>Kotlin<br>C#<br>C++</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="heading"><h2>글</h2></div>
+              <div class="content">
+                <ul>
+                  <li><a href="blog1.html">DM멀티월드 플러그인</a></li>
+                  <li><a href="blog2.html">CatFish 라이브러리</a></li>
+                  <li><a href="blog3.html">옛날 마인크래프트 해보기</a></li>
+                </ul>
+              </div>
+            </div>
+<!--            <div class="box">-->
+<!--              <div class="heading"><h2>Popular Post</h2></div>-->
+<!--              <div class="content">-->
+<!--                <div class="post">-->
+<!--                  <img src="images/img4.jpg" width="50px"/>-->
+<!--                  <h4><a href="#">Lorem ipsum dolor sit</a></h4>-->
+<!--                  <p>November 11 ,2012</p>-->
+<!--                </div>-->
+<!--                <div class="post">-->
+<!--                  <img src="images/img5.jpg" width="50px"/>-->
+<!--                  <h4><a href="#">Lorem ipsum dolor sit</a></h4>-->
+<!--                  <p>November 11 ,2012</p>-->
+<!--                </div>-->
+<!--                <div class="post">-->
+<!--                  <img src="images/img1.jpg" width="50px"/>-->
+<!--                  <h4><a href="#">Lorem ipsum dolor sit</a></h4>-->
+<!--                  <p>November 11 ,2012</p>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------Footer--------------->
+  <footer>
+    <div class="wrap-footer">
+      <div class="row">
+        <div class="col-1-3">
+          <div class="wrap-col">
+            <div class="box">
+              <!--						<div class="heading"><h2>Image Gallery</h2></div>-->
+              <!--						<div class="content gallery">-->
+              <!--							<a href="#"><img src="images/img1.jpg" width="120"/></a>-->
+              <!--							<a href="#"><img src="images/img2.jpg" width="120"/></a>-->
+              <!--							<a href="#"><img src="images/img3.jpg" width="120"/></a>-->
+              <!--							<a href="#"><img src="images/img4.jpg" width="120"/></a>-->
+              <!--							<a href="#"><img src="images/img5.jpg" width="120"/></a>-->
+              <!--							<a href="#"><img src="images/img1.jpg" width="120"/></a>-->
+              <!--						</div>-->
+            </div>
+          </div>
+        </div>
+        <!--                <div class="col-1-1">-->
+        <!--                    <div class="wrap-col">-->
+        <!--                        <div class="box">-->
+        <!--                            <div class="heading"><h2>About me</h2></div>-->
+        <!--                            <div class="content">-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <div class="col-1-3">
+          <div class="wrap-col">
+            <div class="box">
+              <div class="heading"><h2>Contact Me</h2></div>
+              <div class="content">
+                <p>Email: admin@dominicus.kr</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © 2024 - <a href="https://github.com/Dominicus0830" target="_blank"> </a> by Dominicus0830. All
+        rights reserved</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
